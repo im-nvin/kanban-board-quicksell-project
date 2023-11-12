@@ -1,0 +1,13 @@
+.profile-wrapper{
+    background-color: orange;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-wrapper > span{
+    color: white;
+    font-size: 0.7em;
+}

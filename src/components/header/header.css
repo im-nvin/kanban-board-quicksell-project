@@ -1,0 +1,60 @@
+.Header {
+    padding: 1rem 2rem;
+}
+
+.Header-wrapper {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    border: 2px solid black;
+    /* padding: 2px; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Header-wrapper>img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+.Header-wrapper>span {
+    font-size: 15px;
+}
+
+.Menu {
+    width: 250px;
+    height: 87px;
+    border: 1px solid gainsboro;
+    padding: 13px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+.Menu.active {
+    display: block;
+}
+.Menu-Item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu-Item {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.Menu-Item > select {
+    width: 100px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 1px;
+
+}
